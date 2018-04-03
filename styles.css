@@ -1,0 +1,91 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+#options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.light {
+    align-self: flex-end;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    float: left;
+    border-radius: 50%;
+    margin: 20px;
+    bottom: 10px;
+}
+
+#gameBoard {
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10% auto;
+    border: 6px solid black;
+    width: 800px;
+    height: 500px;
+    background-color: #db203d;
+    justify-content: center;
+}
+
+#gameBoardDisplay {
+    border: 5px solid black;
+    padding: 0 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: sandybrown;
+}
+
+#pointScreens {
+    position: absolute;
+    display: flex;
+    margin-top: 200px;
+}
+
+#points {
+    text-align: center;
+    width: 180px;
+    margin-right: 60px;
+}
+p {
+    margin: 0;
+}
+
+.pointDisplay {
+    margin-top: 25px;
+    background-color: #3E3E3E;
+    color: #F8000E;
+    text-align: end;
+    padding: 10px 0;
+    font-size: 35px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#highscore {
+    text-align: center;
+    width: 180px;
+    margin-left: 60px;
+}
+
+h3 {
+    color: white;
+    font-size: 50px;
+}
+
+p {
+    clear: both;
+}

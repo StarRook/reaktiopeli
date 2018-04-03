@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="game.js"></script>
+</head>
+<body>
+    <div id="options">
+        <input type="number" placeholder="Valitse valojen määrä" id="numberOfLightsInput">
+        <div id="difficultySelectionBox">
+            <button class="button">Helppo</button>
+            <button class="button">Keskivaikea</button>
+            <button class="button">Vaikea</button>
+            <button class="button">Erittäin vaikea</button>
+        </div>
+    </div>
+    <div id="gameBoard">
+        <div id="gameBoardDisplay">
+            <h3>NOPEUSTESTI</h3>
+        </div>
+        <div id="pointScreens">
+            <div id="points">
+                <p>TULOKSESI</p>
+                <p id="pointsOutput" class="pointDisplay">0</p>
+            </div>
+            <div id="highscore">
+                <p>PARAS TULOS</p>
+                <p class="pointDisplay">0</p>
+            </div>
+        </div>
+    </div>
+    <p id="clickedLightOutput"></p>
+    <p id="clickCounterOutput"></p>
+</body>
+</html>
