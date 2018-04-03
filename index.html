@@ -9,30 +9,33 @@
 </head>
 <body>
     <div id="options">
-        <input type="number" placeholder="Valitse valojen määrä" id="numberOfLightsInput">
-        <div id="difficultySelectionBox">
-            <button class="button">Helppo</button>
-            <button class="button">Keskivaikea</button>
-            <button class="button">Vaikea</button>
-            <button class="button">Erittäin vaikea</button>
+        <h1 id="mainHeader" >WELCOME TO SPEEDTEST!</h1>
+        <h2 id="messageHeader" >Please select your difficulty</h2>
+        <div class="center">
+            <div id="difficultySelectionBox">
+                <button class="button">Easy</button>
+                <button class="button">Medium</button>
+                <button class="button">Hard</button>
+                <button class="button">Expert</button>
+            </div>
         </div>
     </div>
-    <div id="gameBoard">
+    <div class="behind" id="gameBoard">
         <div id="gameBoardDisplay">
-            <h3>NOPEUSTESTI</h3>
+            <h3>SPEEDTEST</h3>
         </div>
         <div id="pointScreens">
             <div id="points">
-                <p>TULOKSESI</p>
+                <p>POINTS</p>
                 <p id="pointsOutput" class="pointDisplay">0</p>
             </div>
             <div id="highscore">
-                <p>PARAS TULOS</p>
-                <p class="pointDisplay">0</p>
+                <p>HIGHSCORE</p>
+                <p id="highscoreOutput" class="pointDisplay">0</p>
             </div>
         </div>
     </div>
-    <p id="clickedLightOutput"></p>
-    <p id="clickCounterOutput"></p>
+    <p class="text" id="clickedLightOutput"></p>
+    <p class="text" id="clickCounterOutput"></p>
 </body>
 </html>
